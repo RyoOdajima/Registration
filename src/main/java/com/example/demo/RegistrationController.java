@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
 @RestController
-public class Registration2Controller {
+public class RegistrationController {
 	@PostMapping("/register")
 	public ModelAndView register(@ModelAttribute RegistData registData,
 			
